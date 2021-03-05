@@ -5,47 +5,124 @@
 <head>
 
     <meta charset="UTF-8">
-    <title> Электронная библиотека без возможности скачивания </title>
+    <title> Электронная библиотека самых бесполезных книг </title>
 </head>
 
+
 <body>
-
     <header>
-
-        <font face="Arial"><h1>Добро пожаловать на закрытую площадку, книжные черви!</h1></font>
-
+        <div class="aligncenter">
+        <font face="Arial"><h1>Добро пожаловать на бесплатную площадку, книжные черви!</h1></font>
     </header>
 
-    <main>
+        <style>
+            .aligncenter {
+                text-align: center;
+            }
+            .margnin{
+                margin: 10px;
+            }
 
+            .alignbottom {
+                bottom: 0;
+                left: 0;
+                padding: 10px;
+                position: relative;
+            }
+
+            h1 {
+                font-size: 120%;
+                font-family: Verdana, Arial, Helvetica, sans-serif;
+
+            }
+
+            aside {
+                background: #f0f0f0;
+                padding: 10px;
+                width: 200px;
+                float: right;
+
+            }
+
+            main{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+        </style>
+
+<h1>
         <nav>
             <ul class="navigation1">
             <ul style="list-style-type:square">
-    
-    
                 <li>Список доступных книг</li>
-    
-                <li><a href="./about.html">Иформация о библиотеке</a></li>
+                <li><a href="./about.html">Информация о библиотеке</a></li>
             </ul>
+
+                <form>
+                    <ul class="navigation1">
+                    <p><input type="search" name="q" placeholder="Поиск по сайту">
+                        <input type="submit" value="Найти"></p>
+                </form>
+
          </nav>
+</h1>
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <main>
+        <div class="aligncenter">
 
-    <div class = "books">
+        <article>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </article>
+            <p></p>
+
+     <div class = "books">
         <div class="book">
-            <img src ="https://images.stopgame.ru/uploads/images/358268/form/2015/08/30/1440949378.jpg" width="150" height="150" alt="#1"
-            class ="book_image">
-            <div class= "book_description">  
-            Книга ни о чем № 1
+            <img src ="https://images.stopgame.ru/uploads/images/358268/form/2015/08/30/1440949378.jpg" width="250" height="250" alt=""
+                 class ="book_image">
+            <div class="margnin">
+            <figcaption> Книга ни о чем № 1 </figcaption>
+            <figcaption><a href="./book1.html">Иформация о книге</a></figcaption>
+
+                <hr>
+                <blockquote>
+                    <p>"Бесполезнее книги просто не найти" - безымянный автор № 1 </p>
+                </blockquote>
+                <hr>
+
+                <div class="margnin">
         </div>
-    </div>
 
+        <div class = "books">
+            <img src ="https://images.stopgame.ru/uploads/images/358268/form/2015/08/30/1440949378.jpg" width="250" height="250" alt=""
+                 class ="book_image">
+            <div class= "book_description">
+                <div class="margnin">
+                <figcaption> Книга ни о чем № 2 </figcaption>
+                <figcaption><a href="./book2.html">Иформация о книге</a></figcaption>
+
+                    <hr>
+                    <blockquote>
+                        <p>"Бесполезнее книги просто не найти" - безымянный автор № 2 </p>
+                    </blockquote>
+                    <hr>
+
+                    <div class="margnin">
+            </div>
     </main>
-
-    <footer> 
-
+    <footer>
+        <aside>
+            <div class="aligncenter">
+            <p>А книги и правада плохие :(</p>
+                <code>
+                    int main()
+                    {
+                    printf("Hello, World!\n");
+                    return 0;
+                    }
+                </code>
+        </aside>
+            <div class="alignbottom">
+<3&nbsp;2021
     </footer>
-
 </body>
-
 </html>
