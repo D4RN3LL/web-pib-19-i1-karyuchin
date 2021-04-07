@@ -1,0 +1,178 @@
+body{
+    background-color: white;
+}
+header {
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    text-align: right;
+    height: 120px;
+    padding: 2em 5%;
+    background: #b86c0c;
+    color: #fff;
+}
+header::after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+header > div,
+header > div::before,
+header nav,
+header > div h1 {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+header > div {
+    height: 100%;
+}
+header > div::before {
+    content: '';
+    height: 100%;
+}
+header > div h1 {
+    font-size: 3em;
+    font-style: italic;
+}
+header nav a {
+    display: inline-block;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.2s;
+}
+header nav a:hover{
+    background: rgb(167, 152, 53);
+}
+.DriftContent{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.caption-border-RDS{
+    width: 400px;
+    margin: 50px auto 0;
+    border: 5px solid #d70374;;
+    background: white;
+    padding: 10px;
+}
+.caption-border-RDS img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    padding-bottom: 10px;
+}
+.caption-border-RDS figcaption{
+    font-size: 120%;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    padding: 10px;
+    color: white;
+    background: #d70374;
+    text-align: center;
+    text-transform: uppercase;
+}
+.RDSGP p{
+    font-size: 120%;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    width: 45%;
+    padding: 10px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-transform: uppercase;
+    background: #d70374;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+}
+.RDSGP a{
+    display: inline-block;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.2s;
+}
+.RDSGP a:hover{
+    background: #FFC0CB;
+}
+.caption-border-DM{
+    width: 400px;
+    margin: 50px auto 0;
+    border: 5px solid #edc118;;
+    background: white;
+    padding: 10px;
+}
+.caption-border-DM img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    padding-bottom: 10px;
+}
+.caption-border-DM figcaption {
+    font-size: 120%;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    padding: 10px;
+    color: white;
+    background: black;
+    text-align: center;
+    text-transform: uppercase;
+}
+.DriftMasters p{
+    font-size: 120%;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    width: 45%;
+    padding: 10px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-transform: uppercase;
+    background: black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+}
+.DriftMasters a{
+    display: inline-block;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.2s;
+}
+.DriftMasters a:hover{
+    background: #edc118;
+}
+footer{
+    flex: 0 0;
+    color: white;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    background-color: grey;
+}

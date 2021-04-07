@@ -1,0 +1,304 @@
+body{
+    background-color: white;
+}
+.weekalert {
+    padding: 20px;
+    background-color: grey;
+    color: white;
+}
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.closebtn:hover {
+    color: black;
+}
+.message{
+    font-size: 150%;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+q {
+    quotes: "\00ab" "\00bb";
+}
+header {
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    text-align: right;
+    height: 120px;
+    padding: 2em 5%;
+    background: #b86c0c;
+    color: #fff;
+}
+header::after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+header > div,
+header > div::before,
+header nav,
+header > div h1 {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+header > div {
+    height: 100%;
+}
+header > div::before {
+    content: '';
+    height: 100%;
+}
+header > div h1 {
+    font-size: 3em;
+    font-style: italic;
+}
+header nav a {
+    display: inline-block;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.2s;
+}
+header nav a:hover{
+    background: rgb(167, 152, 53);
+}
+.card img{
+    width: 55%;
+    display: flex;
+}
+.card{
+    color: white;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    background-color: grey;
+    display: flex;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.card:hover {
+    box-shadow: 0 0 16px yellow;
+}
+.container {
+    padding: 2px 16px;
+    flex-direction:row;
+}
+.container img{
+    padding: 2px 8px;
+    flex-direction:row;
+    width: 100%;
+}
+.card2 img{
+    width: 55%;
+    display: flex;
+}
+.card2{
+    color: white;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    background-color: grey;
+    display: flex;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.card2:hover {
+    box-shadow: 0 0 16px #FF0000;
+}
+.container2 {
+    padding: 2px 16px;
+    flex-direction:row;
+}
+.container2 img{
+    padding: 2px 8px;
+    flex-direction:row;
+    width: 100%;
+}
+.card3 img{
+    width: 55%;
+    display: flex;
+}
+.card3{
+    color: white;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    background-color: grey;
+    display: flex;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.card3:hover {
+    box-shadow: 0 0 16px #00ff00;
+}
+.container3 {
+    padding: 2px 16px;
+    flex-direction:row;
+}
+.container3 img{
+    padding: 2px 8px;
+    flex-direction:row;
+    width: 100%;
+}
+.card4 img{
+    width: 55%;
+    display: flex;
+}
+.card4{
+    color: white;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    background-color: grey;
+    display: flex;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.card4:hover {
+    box-shadow: 0 0 16px #8B008B;
+}
+.container4 {
+    padding: 2px 16px;
+    flex-direction:row;
+}
+.container4 img{
+    padding: 2px 8px;
+    flex-direction:row;
+    width: 100%;
+}
+.card5 img{
+    width: 55%;
+    display: flex;
+}
+.card5{
+    color: white;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    background-color: grey;
+    display: flex;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.card5:hover {
+    box-shadow: 0 0 16px #8A2BE2;
+}
+.container5 {
+    padding: 2px 16px;
+    flex-direction:row;
+}
+.container5 img{
+    padding: 2px 8px;
+    flex-direction:row;
+    width: 100%;
+}
+.card6 img {
+    width: 55%;
+    display: flex;
+}
+.card6{
+    color: white;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    background-color: grey;
+    display: flex;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.card6:hover {
+    box-shadow: 0 0 16px #00FFFF;
+}
+.container6 {
+    padding: 2px 16px;
+    flex-direction:row;
+}
+.container6 img{
+    padding: 2px 8px;
+    flex-direction:row;
+    width: 100%;
+}
+.card7 img {
+    width: 55%;
+    display: flex;
+}
+.card7{
+    color: white;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    background-color: dimgrey;
+    display: flex;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.card7:hover {
+    box-shadow: 0 0 16px #00BFFF;
+}
+.container7 {
+    padding: 2px 16px;
+    flex-direction:row;
+}
+.container7 img{
+    padding: 2px 8px;
+    flex-direction:row;
+    width: 100%;
+}
+.card8 img {
+    width: 55%;
+    display: flex;
+}
+.card8{
+    color: white;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    background-color: dimgrey;
+    display: flex;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.card8:hover {
+    box-shadow: 0 0 16px #FF0000;
+}
+.container8 {
+    padding: 2px 16px;
+    flex-direction:row;
+}
+.container8 img{
+    padding: 2px 8px;
+    flex-direction:row;
+    width: 100%;
+}
+footer{
+    color: white;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    background-color: grey;
+}
