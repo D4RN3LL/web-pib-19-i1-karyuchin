@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5b9512e1-e264-4b3b-bf6e-4234779de66f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/pageDMASTERS.html" beforeDir="false" afterPath="$PROJECT_DIR$/pageDMASTERS.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pageRDS.html" beforeDir="false" afterPath="$PROJECT_DIR$/pageRDS.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pageSTART.html" beforeDir="false" afterPath="$PROJECT_DIR$/pageSTART.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1oxRf7jo4mNsQaV86WvV2TD1A1x" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.other" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5b9512e1-e264-4b3b-bf6e-4234779de66f" name="Default Changelist" comment="" />
+      <created>1614226355987</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614226355987</updated>
+      <workItem from="1614226357217" duration="115000" />
+      <workItem from="1614227937969" duration="418000" />
+      <workItem from="1614419254923" duration="1024000" />
+      <workItem from="1614522493769" duration="8149000" />
+      <workItem from="1614579012892" duration="1338000" />
+      <workItem from="1614864347575" duration="1247000" />
+      <workItem from="1614953616910" duration="2438000" />
+      <workItem from="1614956086255" duration="2395000" />
+      <workItem from="1615209371995" duration="862000" />
+      <workItem from="1615480019869" duration="876000" />
+      <workItem from="1615558411872" duration="99000" />
+      <workItem from="1615558524364" duration="1885000" />
+      <workItem from="1615565710493" duration="434000" />
+      <workItem from="1615605698970" duration="1883000" />
+      <workItem from="1615799528195" duration="410000" />
+      <workItem from="1616595666254" duration="196000" />
+      <workItem from="1616595951489" duration="2263000" />
+      <workItem from="1617464097597" duration="15010000" />
+      <workItem from="1617614138080" duration="10537000" />
+      <workItem from="1617628739996" duration="197000" />
+      <workItem from="1617643552278" duration="4229000" />
+      <workItem from="1617723742157" duration="1947000" />
+      <workItem from="1617775199193" duration="16198000" />
+      <workItem from="1617806073747" duration="297000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

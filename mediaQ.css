@@ -1,0 +1,13 @@
+@media screen and (max-width: 720px){
+    header {
+        height: auto;
+    }
+    header > div,
+    header > div h1,
+    header nav {
+        height: auto;
+        width: auto;
+        display: block;
+        text-align: center;
+    }
+}
