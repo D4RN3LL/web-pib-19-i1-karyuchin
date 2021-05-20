@@ -1,3 +1,38 @@
+.night{background-color: grey}
+
+
+.alert {
+    padding: 15px;
+    border: 1px solid #d6e9c6;
+    border-radius: 4px;
+    color: #3c763d;
+    background-color: #dff0d8;
+}
+
+.clockpage
+{
+    margin: auto;
+    max-width: 500px;
+    min-width: 100px;
+    background: grey;
+    text-align: center;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    padding: 10px;
+    font-weight: bold;
+    border-top: 10px solid #b86c0c;
+}
+#dayOfWeek
+{
+    display: block;
+    font-weight: normal;
+    font-size: 18px;
+}
+#textTHANKS
+{
+    font-size: 15px;
+}
+
 body{
     background-color: white;
 }
@@ -7,6 +42,7 @@ header {
     height: 120px;
     padding: 2em 5%;
     background: #b86c0c;
+    width: auto;
     color: #fff;
 }
 header::after {
@@ -175,4 +211,6 @@ footer{
     color: white;
     font-family: Geneva, Arial, Helvetica, sans-serif;
     background-color: grey;
+    top: 95%;
+
 }
