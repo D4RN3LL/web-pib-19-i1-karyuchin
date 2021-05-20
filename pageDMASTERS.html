@@ -6,13 +6,18 @@
     <link href="./styleCARS.css" rel="stylesheet" type="text/css"/>
     <link href="mediaQ.css" rel="stylesheet" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./JS-1.js"></script>
 </head>
-<body>
+<body onload="clockTimer();">
 <header>
     <h1>Drift masters European Championship</h1>
-    <nav>
+    <nav class = "navigation1">
         <a href="pageSTART.html">Доступные гоночные серии</a>
         <a href="https://github.com/D4RN3LL">GitHub</a>
+        <div class = "search">
+            <input type="text" id="text-to-find" value="">
+            <input id = "button1" type="button" onclick="javascript: FindOnPage('text-to-find'); return false;" value="Искать"/>
+        </div>
     </nav>
 </header>
 <div class="weekalert">
@@ -26,6 +31,7 @@
         <p>Пилот: Linus Joensuu</p>
         <p>Двигатель: 900hp 2JZ GTE</p>
         <img src ="http://speedhunters-wp-production.s3.amazonaws.com/wp-content/uploads/2020/08/26010633/hgk-bmw-eurofighter-bluss-deane-joensuu-by-wheelsbywovka-101.jpg">
+
     </div>
 </div>
 <div class="card6">
@@ -56,9 +62,13 @@
     </div>
 </div>
 <footer>
-    <div class="alignbottom">
-        <3&nbsp;2021&nbsp;D4RN3ll
-    </div>
+    <footer>
+        <div class="clockpage">
+            <span id="clock"></span>
+            <span id="dayOfWeek"></span>
+            <span id="textTHANKS"><3&nbsp;2021&nbsp;D4RN3ll</span>
+        </div>
+    </footer>
 </footer>
 </body>
 </html>

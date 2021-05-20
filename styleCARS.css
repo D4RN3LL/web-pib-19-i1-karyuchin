@@ -1,3 +1,68 @@
+.night{background-color: grey}
+
+
+.search {
+    width: auto;
+    box-sizing: border-box;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+    margin:0 auto;
+    padding: 10px;
+}
+#text-to-find
+{
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    display: inline-block;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    transition: 0.2s;
+    color: black;
+
+}
+#button1
+{
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    display: inline-block;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    transition: 0.2s;
+    color: black;
+}
+
+.clockpage
+{
+    margin: auto;
+    max-width: 500px;
+    min-width: 100px;
+    background: grey;
+    text-align: center;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    padding: 10px;
+    font-weight: bold;
+    border-top: 10px solid #b86c0c;
+}
+#dayOfWeek
+{
+    display: block;
+    font-weight: normal;
+    font-size: 18px;
+}
+#textTHANKS
+{
+    font-size: 15px;
+}
+
+
 body{
     background-color: white;
 }
@@ -29,7 +94,7 @@ q {
 header {
     font-family: Geneva, Arial, Helvetica, sans-serif;
     text-align: right;
-    height: 120px;
+    height: 150px;
     padding: 2em 5%;
     background: #b86c0c;
     color: #fff;

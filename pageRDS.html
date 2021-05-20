@@ -6,16 +6,22 @@
     <link href="./styleCARS.css" rel="stylesheet" type="text/css"/>
     <link href="mediaQ.css" rel="stylesheet" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./JS-1.js"></script>
 </head>
-<body>
+<body onload="clockTimer();">
+
 <header>
     <h1>Российская Дрифт Серия Гран-При (RDS GP)</h1>
     <nav>
         <a href="pageSTART.html">Доступные гоночные серии</a>
         <a href="https://github.com/D4RN3LL">GitHub</a>
+        <div class = "search">
+            <input type="text" id="text-to-find" value="">
+            <input id = "button1" type="button" onclick="javascript: FindOnPage('text-to-find'); return false;" value="Искать"/>
+        </div>
     </nav>
 </header>
-<div class="card">
+<div class ="card">
     <img src ="http://speedhunters-wp-production.s3.amazonaws.com/wp-content/uploads/2019/05/21113755/rds-moscow-raceway-by-wheelsbywovka-23.jpg">
     <div class="container">
         <h4>Nissan Silvia S15</h4>
@@ -52,9 +58,14 @@
     </div>
 </div>
 <footer>
-    <div class="alignbottom">
-        <3&nbsp;2021&nbsp;D4RN3ll
-    </div>
+    <footer>
+        <div class="clockpage">
+            <span id="clock"></span>
+            <span id="dayOfWeek"></span>
+            <span id="textTHANKS"><3&nbsp;2021&nbsp;D4RN3ll</span>
+        </div>
+    </footer>
 </footer>
+
 </body>
 </html>

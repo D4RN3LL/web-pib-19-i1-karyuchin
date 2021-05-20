@@ -6,8 +6,9 @@
     <link href="./style.css" rel="stylesheet" type="text/css"/>
     <link href="mediaQ.css" rel="stylesheet" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./JS-1.js"></script>
 </head>
-<body>
+<body onload="clockTimer();">
 <header>
     <h1>Автосалон дрифт-автомобилей</h1>
     <nav>
@@ -32,9 +33,11 @@
     </div>
 </div>
     <footer>
-    <div class="alignbottom">
-        <3&nbsp;2021&nbsp;D4RN3ll
-    </div>
+        <div class="clockpage">
+            <span id="clock"></span>
+            <span id="dayOfWeek"></span>
+            <span id="textTHANKS"><3&nbsp;2021&nbsp;D4RN3ll</span>
+        </div>
     </footer>
 </body>
 </html>
